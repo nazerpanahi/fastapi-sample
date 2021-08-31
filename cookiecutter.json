@@ -1,0 +1,8 @@
+{
+  "project_name": "Sample FastAPI Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "short_description": "Ready to go project",
+  "title": "{{ cookiecutter.project_name.lower().title() }}",
+  "description": "{{ cookiecutter.short_description }}",
+  "version": "0.1.0"
+}
